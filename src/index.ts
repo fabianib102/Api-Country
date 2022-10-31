@@ -1,16 +1,18 @@
-import express from 'express';
-const app = express();
+import express from 'express'
+import countries from './routes/countries'
 
-app.use(express.json());
+const app = express()
 
-const PORT = 3000;
+app.use(express.json())
 
-app.get('', (_req, res) => {
-    console.log('algo');
-    res.send('ping')
-});
+const PORT = 3000
 
-app.listen(PORT, () => {
-    console.log(`Running on port ${PORT}`)
+app.get('/ping', (_req, res) => {
+  res.send('pongdawdawd')
 })
 
+app.use('/api/countries', countries)
+
+app.listen(PORT, () => {
+  console.log(`Running on port ${PORT}`)
+})

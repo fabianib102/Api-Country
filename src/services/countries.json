@@ -1,0 +1,34 @@
+[
+    {
+        "name": "Peru",
+        "capital": "Lima",
+        "subregion": "South America",
+        "region": "Americas",
+        "population": 32971846,
+        "numericCode": "604",
+        "languages": [
+          {
+            "name": "Spanish",
+            "nativeName": "Español"
+          }
+        ],
+        "flag": "https://flagcdn.com/pe.svg",
+        "independent": true
+    },
+    {
+        "name": "Argentina",
+        "capital": "Buenos Aires",
+        "subregion": "South America",
+        "region": "Americas",
+        "population": 45376763,
+        "numericCode": "032",
+        "languages": [
+          {
+            "name": "Spanish",
+            "nativeName": "Español"
+          }
+        ],
+        "flag": "https://flagcdn.com/ar.svg",
+        "independent": true
+    }
+]
